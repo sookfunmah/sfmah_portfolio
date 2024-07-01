@@ -75,8 +75,8 @@
   ],
   "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   "resume": {
-    "tagline": "I'm a manufacturing engineer currently, looking to explore software engineer's role.",
-    "description": "I have recently completed GA software Engineering Bootcamp",
+    "tagline": "A highly motivated and resourceful individual with a strong commitment to excellence, I always strive to do things right the first time around. Fearless in seeking help and asking questions, I demonstrate a proactive attitude and a constant willingness to learn. Transitioning to a software career, I bring valuable experience in troubleshooting and testing, alongside my proficiency in JavaScript, HTML, React, and the MERN stack. This unique combination positions me as a capable and dedicated professional ready to tackle the challenges of the tech industry.",
+    "description": "As a Software engineering graduate from GA, it will be my goal to constantly update and equip myself with more progamming skills & knowlege.",
     "experiences": [
       {
         "id": "1",
@@ -108,12 +108,20 @@
       }
     ],
     "education": {
-      "universityName": "University X",
-      "universityDate": "2016-2020",
-      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+
+      "universityName": "General Assembly, Singapore",
+      "universityDate": "Dec2023 - Jun2024",
+      "universityPara": "Software Engineering Immersive ",
+
+      "universityName2": "University Liverpool John Moores",
+      "universityDate2": "2012",
+      "universityPara2": "BEng(Hons) Electronic & Control Systems Engineering.  Grade : Second Upper Class Honours"
+
+    
     },
-    "languages": ["Javascript", "HTML5", "CSS", "Python", "Go"],
-    "frameworks": ["React", "Typescript", "NodeJs"],
-    "others": ["Figma", "AdobeXD", "AWS"]
+     
+    "languages": ["Javascript", "HTML", "CSS"],
+    "frameworks": ["React", "MERN Stack", "NodeJs"],
+    "others": ["Cloudinary", "DaisyUI", "MongoDB"]
   }
 }
