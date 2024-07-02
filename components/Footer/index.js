@@ -8,26 +8,42 @@ const Footer = ({}) => {
     <>
       <div className="mt-5 laptop:mt-40 p-2 laptop:p-0">
         <div>
-          <h1 className="text-2xl text-bold">Contact.</h1>
+          <h1 className="text-2xl text-bold">CONTACT</h1>
           <div className="mt-10">
             <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
-              LET&apos;S WORK
+              LET&apos;S GET
             </h1>
             <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
-              TOGETHER
+              CONNECTED
             </h1>
-            <Button type="primary">Schedule a call</Button>
+
             <div className="mt-10">
-              <Socials />
+              email :   
+            <a href="sookfun.mah@gmail.com" className="text-blue-500 hover:underline">
+              <br></br>sookfun.mah@gmail.com
+            </a>
             </div>
+            
+            <div className="mt-10">
+              github :   
+            <a href="https://github.com/sookfunmah" className="text-blue-500 hover:underline">
+              <br></br>https://github.com/sookfunmah
+            </a>
+            </div>
+
+            <div className="mt-10">
+              linkedin :   
+            <a href="https://www.linkedin.com/in/sook-fun-mah/" className="text-blue-500 hover:underline">
+              <br></br>https://www.linkedin.com/in/sook-fun-mah/
+            </a>
+            </div>
+
           </div>
         </div>
       </div>
       <h1 className="text-sm text-bold mt-2 laptop:mt-10 p-2 laptop:p-0">
-        Made With ❤ by{" "}
-        <Link href="http://www.chetanverma.com">
-          <a className="underline underline-offset-1">Chetan Verma</a>
-        </Link>
+        <br></br>By Sook Fun
+        
       </h1>
     </>
   );

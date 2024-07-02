@@ -1,11 +1,11 @@
 {
-  "name": "Sook Fun",
+  "name": "MAH Sook Fun",
   "headerTaglineOne": "Hi!",
   "headerTaglineTwo": "I'm Sook Fun",
   "headerTaglineThree": "",
   "headerTaglineFour": "A web development Enthusiast",
-  "showCursor": true,
-  "showBlog": true,
+  "showCursor": false,
+  "showBlog": false,
   "darkMode": true,
   "showResume": true,
   "socials": [
@@ -15,8 +15,6 @@
       "title": "LinkedIn",
       "link": "https://www.linkedin.com/in/sook-fun-mah/"
     },
-    { "id": "3", "title": "Twitter", "link": "https://twitter.com" },
-    { "id": "4", "title": "Blog", "link": "https://blog.com/" },
     { "id": "5", "title": "Email", "link": "mailto:sookfun.mah@gmail.com" }
   ],
   "projects": [
@@ -24,56 +22,54 @@
       "id": "1",
       "title": "Mini Game",
       "description": "Mini Game for kids to match the icon to the correct words.",
-      "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "imageSrc": "https://res.cloudinary.com/dpqzyov4e/image/upload/v1719929126/MatchGame_vzsjcx.png",
       "url": "https://sookfunmah.github.io/SookFun_Game/"
     },
     {
       "id": "2",
       "title": "Social Media White Board (Group)",
       "description": "A platform for alumni/ group of people to feedback and express themselves with a picture.",
-      
-      "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      "imageSrc": "https://res.cloudinary.com/dpqzyov4e/image/upload/v1719929129/whiteboard_ggjkzs.png",
       "url": " https://wb-frontend-one.vercel.app/"
     },
     {
       "id": "3",
       "title": "Twitter Clone Classic Ver.",
       "description": "Social Media app to upload status and an image.Users will need to have a valid account for all the functions",
-      "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "twit-beta.onrender.com"
+      "imageSrc": "https://res.cloudinary.com/dpqzyov4e/image/upload/v1719929126/twit_r9emwp.png",
+      "url": "https://twit-beta.onrender.com/"
     },
     {
-        "id": "4",
-        "title": "Fitness Moovit App - Under Maintenance",
-        "description": "A fitness app for one to search for workout steps.",
-        "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-        "url": "twit-beta.onrender.com"
-      }
-   
+      "id": "4",
+      "title": "Fitness Moovit App - Under Maintenance",
+      "description": "A fitness app for one to search for workout steps.",
+      "imageSrc": "https://res.cloudinary.com/dpqzyov4e/image/upload/v1719929637/image-1_vanoby.png",
+      "url": "https://fitness-moovit.vercel.app/"
+    }
   ],
   "services": [
     {
       "id": "1",
-      "title": "Art Direction",
-      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+      "title": "Successfully Transfer to NPI to Mass Production - Battery Assembly",
+      "description": "Oversee & successfully transfer NPI to mass production, Li-Ion battery management system, 600 k unit/month for handheld vacuum cleaner when I was in Dyson back in 2013 till 2018."
     },
     {
       "id": "2",
-      "title": "Branding",
-      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+      "title": "Implementation of Traceability on battery cells ",
+      "description": "Designed and implemented barcodes for each battery cell used in the assembly process. This improvement was essential to manage the different battery sources and to enhance overall product quality and traceability. Given the highly flammable nature of Li-ion batteries, strict regulation and compliance were imperative. This was one of my achievement in Dyson with minimal guidance."
     },
     {
       "id": "3",
-      "title": "Web Design",
-      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+      "title": "Dyson Pioneer",
+      "description": "It was an event held by Dyson globally. I pitched an idea of the common 3R  concept which is  \"reduce, reuse and recycle\"  in the factory in the simplest act.\nAt times, wastage of materials are un-avoidable due research and development, but most time, one could actually think of this 3R concept to reduce the wastage. For an example, a magnet in a sub-assembly could be used a white board magnet.  "
     },
     {
       "id": "4",
-      "title": "3D Design",
-      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+      "title": "Software Engineering Immersive Certification",
+      "description": "Completed 6 months of this intensive software course with 3 individual project and 1 group project. This path was challenging both mentally and physically with classes every alternate days including having to juggle with work. This course didn't just taught me software knowledge but also how to be resilient and know when and how to ask for help."
     }
   ],
-  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "aboutpara": "A highly motivated and resourceful individual with a strong commitment to excellence. Fearless in seeking help and asking questions, I demonstrate a proactive attitude and a constant willingness to learn. Transitioning to a software career, I bring valuable experience in troubleshooting and testing, alongside my proficiency in JavaScript, HTML, React, and the MERN stack. This unique combination positions me as a capable and dedicated professional ready to tackle the challenges of the tech industry.",
   "resume": {
     "tagline": "A highly motivated and resourceful individual with a strong commitment to excellence, I always strive to do things right the first time around. Fearless in seeking help and asking questions, I demonstrate a proactive attitude and a constant willingness to learn. Transitioning to a software career, I bring valuable experience in troubleshooting and testing, alongside my proficiency in JavaScript, HTML, React, and the MERN stack. This unique combination positions me as a capable and dedicated professional ready to tackle the challenges of the tech industry.",
     "description": "As a Software engineering graduate from GA, it will be my goal to constantly update and equip myself with more progamming skills & knowlege.",
@@ -108,18 +104,13 @@
       }
     ],
     "education": {
-
       "universityName": "General Assembly, Singapore",
       "universityDate": "Dec2023 - Jun2024",
       "universityPara": "Software Engineering Immersive ",
-
       "universityName2": "University Liverpool John Moores",
       "universityDate2": "2012",
       "universityPara2": "BEng(Hons) Electronic & Control Systems Engineering.  Grade : Second Upper Class Honours"
-
-    
     },
-     
     "languages": ["Javascript", "HTML", "CSS"],
     "frameworks": ["React", "MERN Stack", "NodeJs"],
     "others": ["Cloudinary", "DaisyUI", "MongoDB"]
