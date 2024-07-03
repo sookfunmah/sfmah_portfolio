@@ -11,12 +11,9 @@ import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
 
-
 // Local Data
 import data from "../data/portfolio.json";
-
-
-
+import profileImage from "/public/images/profile-image.jpg";
 
 export default function Home() {
   // Ref
@@ -69,11 +66,9 @@ export default function Home() {
         />
 
         {/* Main content area */}
-      
+
         <div className="laptop:mt-20 mt-10">
-          {/* Profile Image */}
-          
-     
+
           {/* Header taglines */}
           <div className="mt-5">
             <h1
@@ -101,18 +96,41 @@ export default function Home() {
             >
               {data.headerTaglineFour}
             </h1>
-
-           
           </div>
 
           <Socials className="mt-2 laptop:mt-5" />
         </div>
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={aboutRef}>
+        
+        {/* <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="text-2xl text-bold">ABOUT</h1>
           <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
             {data.aboutpara}
           </p>
-        </div>
+        </div> */}
+
+<div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={aboutRef}>
+  <h1 className="text-2xl text-bold mb-6">ABOUT</h1>
+  
+  <div className="flex flex-col md:flex-row items-start">
+    {/* Left column: Profile Image */}
+    <div className="w-full md:w-1/3 mb-6 md:mb-0 flex justify-center md:justify-start">
+      <img
+        src={profileImage.src}
+        alt="Profile"
+        className="rounded-full w-60 h-60 object-cover"
+        style={{ zIndex: 2 }}
+      />
+    </div>
+    
+    {/* Right column: About paragraph */}
+    <div className="w-full md:w-1/2 md:pl-1">
+      <p className="text-xl laptop:text-2xl">
+        {data.aboutpara}
+      </p>
+    </div>
+  </div>
+</div>
+
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
           <h1 className="text-2xl text-bold">WORK</h1>

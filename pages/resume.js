@@ -47,15 +47,42 @@ const Resume = () => {
             >
               <h1 className="text-3xl font-bold">{name}</h1>
 
-                
-
-
-              <h2 className="text-xl mt-5">{resume.tagline}</h2>
-              <h2 className="w-4/5 text-xl mt-5 opacity-50">
+              <h2 className="text-xl mt-5 text-justify">{resume.tagline}</h2>
+              <h2 className="w-5/5 text-xl mt-5 opacity-50 text-justify">
                 {resume.description}
               </h2>
-              <div className="mt-2">
-                <Socials />
+              <div className="mt-2 text-justify">
+                <h2 className="text-center">
+                  <br></br>
+                  <a
+                    href="https://github.com/sookfunmah"
+                    className="text-blue-600 hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    github.com/sookfunmah
+                  </a>
+                  
+                  <span className="mx-6">|</span>{" "}
+                  <a
+                    href="https://www.linkedin.com/in/sook-fun-mah/"
+                    className="text-blue-600 hover:underline "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    www.linkedin.com/in/sook-fun-mah/
+                  </a>
+                  
+                  <span className="mx-6">|</span>{" "}
+                  <a
+                    href="mailto:sookfun.mah@gmail.com"
+                    className="text-blue-600 hover:underline"
+                  >
+                    sookfun.mah@gmail.com
+                  </a>
+                  <br></br>
+                  <br></br>
+                </h2>
               </div>
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Experience</h1>
@@ -81,11 +108,12 @@ const Resume = () => {
                   </h3>
                   <p className="text-sm mt-2 opacity-50">
                     {resume.education.universityPara}
-                    
                   </p>
                   <div className="mt-5"></div>
 
-                  <h2 className="text-lg">{resume.education.universityName2}</h2>
+                  <h2 className="text-lg">
+                    {resume.education.universityName2}
+                  </h2>
                   <h3 className="text-sm opacity-75">
                     {resume.education.universityDate2}
                   </h3>

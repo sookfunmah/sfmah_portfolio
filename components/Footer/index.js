@@ -19,21 +19,21 @@ const Footer = ({}) => {
 
             <div className="mt-10">
               email :   
-            <a href="sookfun.mah@gmail.com" className="text-blue-500 hover:underline">
+            <a href="sookfun.mah@gmail.com" className="text-blue-700 hover:underline text-2xl">
               <br></br>sookfun.mah@gmail.com
             </a>
             </div>
             
             <div className="mt-10">
               github :   
-            <a href="https://github.com/sookfunmah" className="text-blue-500 hover:underline">
+            <a href="https://github.com/sookfunmah" className="text-blue-700 hover:underline text-2xl">
               <br></br>https://github.com/sookfunmah
             </a>
             </div>
 
             <div className="mt-10">
               linkedin :   
-            <a href="https://www.linkedin.com/in/sook-fun-mah/" className="text-blue-500 hover:underline">
+            <a href="https://www.linkedin.com/in/sook-fun-mah/" className="text-blue-700 hover:underline text-2xl">
               <br></br>https://www.linkedin.com/in/sook-fun-mah/
             </a>
             </div>
