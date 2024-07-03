@@ -13,7 +13,7 @@ import Cursor from "../components/Cursor";
 
 // Local Data
 import data from "../data/portfolio.json";
-import profileImage from "/public/images/profile-image.jpg";
+import profileImage from "../public/images/profile-image.jpg";
 
 export default function Home() {
   // Ref
