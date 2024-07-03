@@ -115,7 +115,7 @@ export default function Home() {
     {/* Left column: Profile Image */}
     <div className="w-full md:w-1/3 mb-6 md:mb-0 flex justify-center md:justify-start">
       <img
-        src={profileImage.src}
+        src="/images/profile-image.jpg"
         alt="Profile"
         className="rounded-full w-60 h-60 object-cover"
         style={{ zIndex: 2 }}
